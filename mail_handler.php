@@ -46,7 +46,7 @@ $mail->addReplyTo($_POST['email']);                          // Add a reply-to a
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = $_POST['subject'];
+$mail->Subject = $_POST['number'];
 $mail->Body = $_POST['message'];
 // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
