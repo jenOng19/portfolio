@@ -872,7 +872,8 @@ Background color variation for section
 }
 
 .gray-bg {
-    background: #fafafa;
+    /* background: #fafafa; */
+    background: #121212;
 }
 
 .transparent-bg {
@@ -1406,10 +1407,11 @@ a.button.large {
 }
 
 .section-title h1 {
-    background: rgba(0, 0, 0, 0) url("img/bg/title-bg.png") repeat-y scroll 0 0;
+    /* background:white url("img/bg/title-bg.png") repeat-y scroll 0 0; */
     line-height: 1;
     margin-bottom: 62px;
     padding: 5px 0 5px 15px;
+    color: white;
 }
 
 .profile-wrapper {
@@ -1576,7 +1578,8 @@ a.button.large {
 }
 
 .portfolio-filter li.active {
-    color: #000000;
+    /* color: #000000; */
+    color: white;
 }
 
 .portfolio.portfolio-masonry {
@@ -2225,7 +2228,8 @@ article.blog-post:hover {
 }
 
 .copyright a {
-    color: #000;
+    /* color: #000; */
+    color: white
 }
 
 #back-top {
@@ -2420,11 +2424,13 @@ article.blog-post:hover {
 }
 
 .dark-layout .section-title h1 {
-    background: rgba(0, 0, 0, 0) url("img/dark/title-bg.png") repeat-y scroll 0 0;
+    /* background: rgba(0, 0, 0, 0) url("img/dark/title-bg.png") repeat-y scroll 0 0; */
+    background: rgba(0, 0, 0, 0) repeat-y scroll 0 0;
 }
 
 .dark-layout .profile-image {
-    background: rgba(0, 0, 0, 0) url("img/dark/profile-bg.png") no-repeat scroll 0 100%;
+    /* background: rgba(0, 0, 0, 0) url("img/dark/profile-bg.png") no-repeat scroll 0 100%; */
+    background: rgba(0, 0, 0, 0) no-repeat scroll 0 100%;
 }
 
 .dark-layout .profile-details p {
@@ -2611,3 +2617,35 @@ article.blog-post:hover {
     margin-bottom: 30px;
     width: 24.5%;
 }
+
+.devicon-skills{
+    height: 100px;
+}
+
+.skills-container{
+    text-align: center;
+}
+
+.portfolio-background{
+    background-image: url("img/portfolio/portfolio-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.highlight{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    /* background: transparent none repeat scroll 0 0; */
+    border: 1px solid #000000;
+    border-radius: 50%;
+    /* color: #303030; */
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 9px;
+    text-align: center;
+    width: 40px;
+    outline: medium none;
+}
+
