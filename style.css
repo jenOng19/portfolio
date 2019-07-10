@@ -2355,7 +2355,8 @@ article.blog-post:hover {
 *********************/
 
 .dark-layout .slider-area:after {
-    background: rgba(0, 0, 0, 0.85) none repeat scroll 0 0;
+    /* background: rgba(0, 0, 0, 0.85) none repeat scroll 0 0; */
+    background: rgba(0, 0, 0, 0.45) none repeat scroll 0 0;
 }
 
 .dark-layout .cd-headline.clip .cd-words-wrapper:after {
@@ -2632,20 +2633,7 @@ article.blog-post:hover {
     background-size: cover;
 }
 
-.highlight{
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    /* background: transparent none repeat scroll 0 0; */
-    border: 1px solid #000000;
-    border-radius: 50%;
-    /* color: #303030; */
-    display: inline-block;
-    font-size: 18px;
-    height: 40px;
-    line-height: 40px;
-    margin: 0 9px;
-    text-align: center;
-    width: 40px;
-    outline: medium none;
+.center-image{
+    top: 127px;
 }
 
